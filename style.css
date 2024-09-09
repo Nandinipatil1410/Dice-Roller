@@ -1,0 +1,54 @@
+body{
+    background-color: hsl(0, 0%, 95%);
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container
+{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: hsl(240, 100%, 77%);
+    border-radius: 15px;
+    box-shadow: 2px 3px 15px grey;
+    width: 500px;
+    padding: 10px;
+}
+
+button{
+    margin-top: 10px;
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(240, 77%, 60%);
+    color: white;
+    box-shadow:3px 2px 12px hsl(0, 0%, 42%);
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(240, 77%, 67%);
+}
+button:active{
+    background-color: hsl(240, 77%, 90%);
+}
+
+input{
+    font-size: 1.5rem;
+    text-align: center;
+    width: 120px;
+    font-weight: bold;
+}
+
+#diceresult{
+    margin: 20px;
+}
+
+#diceImages img{
+    width: 150px;
+    height: 150px;
+    margin: 2px;
+}
